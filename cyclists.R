@@ -1,6 +1,14 @@
 ## PREPARE
+library(dplyr)
+library(tidyr)
+library(lubridate)
+library(ggplot2)
+library(hydroTSM)
+library(janitor)
+
 
 ## reading all the tables of data for a complete year starting from july22 to july23
+## NOTE: Your file path would be different from mine, so using the link provided in the READ.ME, download the data files and upload their paths, apart from this the rest of the code is same.
 
 july22<-read.csv("C:/Users/byash/OneDrive/Desktop/capstone files/202207-divvy-tripdata.csv")
 aug22<-read.csv("C:/Users/byash/OneDrive/Desktop/capstone files/202208-divvy-tripdata.csv")
